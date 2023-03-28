@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "e2e TestAlfred",
+  "main": "TestQA",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":  "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "e2e TestQA"
+  },
+  "keywords": [
+    "TEST"
+  ],
+  "author": "alfred402",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.8.1"
+  }
+}

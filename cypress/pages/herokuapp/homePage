@@ -1,0 +1,29 @@
+class homePage {
+
+    elements = {
+
+        userNameInput: () => cy.get ('#username'),
+        passwordInput: () => cy.get ('#password'),
+        loginBtn: () => cy.get ('#submit'),
+        errorMessage: () => cy.get ('#flash'),
+        
+
+    }
+
+    typeUserName(userName) {
+        this.elements.userNameInput().type(userName)
+    }
+
+    typePassword(password) {
+        this.elements.passwordInput().type(password)
+    }
+
+    typeUserName(userName) {
+        this.elements.loginBtn().click()
+    }
+  
+}
+
+module.exports = new homePage ();
+
+
